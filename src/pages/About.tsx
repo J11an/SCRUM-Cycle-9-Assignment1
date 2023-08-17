@@ -1,4 +1,6 @@
 import {
+  IonBackButton,
+  IonButtons,
   IonContent,
   IonHeader,
   IonPage,
@@ -16,6 +18,9 @@ const About: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>About</IonTitle>
+          <IonButtons slot="start">
+            <IonBackButton defaultHref="/" />
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
