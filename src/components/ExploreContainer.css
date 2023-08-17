@@ -22,3 +22,11 @@
 #container a {
   text-decoration: none;
 }
+
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
