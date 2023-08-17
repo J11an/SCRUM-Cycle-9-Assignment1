@@ -1,0 +1,7 @@
+{
+  "name": "SCRUM-Cycle-9-Assignment1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
